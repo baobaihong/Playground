@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3348A2B52B5FD0C900AA7545 /* PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348A2B42B5FD0C900AA7545 /* PlaygroundApp.swift */; };
-		3348A2B72B5FD0C900AA7545 /* EscapingPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348A2B62B5FD0C900AA7545 /* EscapingPractice.swift */; };
+		3348A2B72B5FD0C900AA7545 /* EscapingClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348A2B62B5FD0C900AA7545 /* EscapingClosure.swift */; };
 		3348A2B92B5FD0CA00AA7545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */; };
 		3348A2BC2B5FD0CA00AA7545 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3348A2BB2B5FD0CA00AA7545 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		3348A2B12B5FD0C900AA7545 /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3348A2B42B5FD0C900AA7545 /* PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundApp.swift; sourceTree = "<group>"; };
-		3348A2B62B5FD0C900AA7545 /* EscapingPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingPractice.swift; sourceTree = "<group>"; };
+		3348A2B62B5FD0C900AA7545 /* EscapingClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosure.swift; sourceTree = "<group>"; };
 		3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3348A2BB2B5FD0CA00AA7545 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				3348A2B42B5FD0C900AA7545 /* PlaygroundApp.swift */,
-				3348A2B62B5FD0C900AA7545 /* EscapingPractice.swift */,
+				3348A2B62B5FD0C900AA7545 /* EscapingClosure.swift */,
 				3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */,
 				3348A2BA2B5FD0CA00AA7545 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3348A2B72B5FD0C900AA7545 /* EscapingPractice.swift in Sources */,
+				3348A2B72B5FD0C900AA7545 /* EscapingClosure.swift in Sources */,
 				3348A2B52B5FD0C900AA7545 /* PlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
