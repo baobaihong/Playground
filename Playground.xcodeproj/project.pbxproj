@@ -11,6 +11,7 @@
 		3348A2B72B5FD0C900AA7545 /* EscapingClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348A2B62B5FD0C900AA7545 /* EscapingClosure.swift */; };
 		3348A2B92B5FD0CA00AA7545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */; };
 		3348A2BC2B5FD0CA00AA7545 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3348A2BB2B5FD0CA00AA7545 /* Preview Assets.xcassets */; };
+		3348A2C32B61FA8C00AA7545 /* CodablePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348A2C22B61FA8C00AA7545 /* CodablePractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3348A2B62B5FD0C900AA7545 /* EscapingClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosure.swift; sourceTree = "<group>"; };
 		3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3348A2BB2B5FD0CA00AA7545 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3348A2C22B61FA8C00AA7545 /* CodablePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodablePractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				3348A2B42B5FD0C900AA7545 /* PlaygroundApp.swift */,
 				3348A2B62B5FD0C900AA7545 /* EscapingClosure.swift */,
+				3348A2C22B61FA8C00AA7545 /* CodablePractice.swift */,
 				3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */,
 				3348A2BA2B5FD0CA00AA7545 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3348A2B72B5FD0C900AA7545 /* EscapingClosure.swift in Sources */,
+				3348A2C32B61FA8C00AA7545 /* CodablePractice.swift in Sources */,
 				3348A2B52B5FD0C900AA7545 /* PlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
