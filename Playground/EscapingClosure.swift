@@ -35,6 +35,8 @@ class EscapingViewModel {
     }
     
     // Iteration3: simulation of asynchronous data-fetching
+    // Asynchronous function returns after it starts the operation, but the closure isn’t called until the operation is completed — the closure needs to escape, to be called later.
+    // when asynchronous function need return, use escaping closure instead of return
     func downloadData3(completionHandler: @escaping (_ data: String) -> ()) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: DispatchWorkItem(block: {
             completionHandler("new data!")
@@ -42,6 +44,7 @@ class EscapingViewModel {
     }
     
     func getData3() {
+        // Capturing self in an escaping closure makes it easy to accidentally create a strong reference cycle.
         // [weak self] ensures that the reference between closure and class instance is weak instead of strong.
         // so that when waiting for data-fetching, the class instance can be de-initialize.
         downloadData3 { [weak self] data in
