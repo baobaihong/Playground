@@ -16,6 +16,7 @@
 		3348A2C32B61FA8C00AA7545 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348A2C22B61FA8C00AA7545 /* Codable.swift */; };
 		33907BEB2B63817300C02559 /* DownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33907BEA2B63817300C02559 /* DownloadWithEscaping.swift */; };
 		33F201AC2B6772DE00ABCC95 /* BackgroundThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F201AB2B6772DE00ABCC95 /* BackgroundThread.swift */; };
+		96B7B0FC2B67FAAA00ED3901 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		3348A2C22B61FA8C00AA7545 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 		33907BEA2B63817300C02559 /* DownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscaping.swift; sourceTree = "<group>"; };
 		33F201AB2B6772DE00ABCC95 /* BackgroundThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundThread.swift; sourceTree = "<group>"; };
+		96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				33F201AB2B6772DE00ABCC95 /* BackgroundThread.swift */,
 				331595B82B6794FD00E8BF50 /* WeakSelf.swift */,
 				3310898F2B679FDB0000ECED /* DownloadWithCombine.swift */,
+				96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */,
 				3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */,
 				3348A2BA2B5FD0CA00AA7545 /* Preview Content */,
 			);
@@ -159,6 +162,7 @@
 				3348A2C32B61FA8C00AA7545 /* Codable.swift in Sources */,
 				3348A2B52B5FD0C900AA7545 /* PlaygroundApp.swift in Sources */,
 				33907BEB2B63817300C02559 /* DownloadWithEscaping.swift in Sources */,
+				96B7B0FC2B67FAAA00ED3901 /* TimerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
