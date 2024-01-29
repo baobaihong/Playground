@@ -42,25 +42,42 @@ class DownloadWithCombineViewModel {
          */
         
         URLSession.shared.dataTaskPublisher(for: url)
-            .subscribe(on: DispatchQueue.global(qos: .background))
+            //.subscribe(on: DispatchQueue.global(qos: .background))
             .receive(on: DispatchQueue.main)
-            .tryMap { data, response -> Data in
-                guard
-                    let response = response as? HTTPURLResponse,
-                      response.statusCode >= 200 && response.statusCode < 300 else {
-                    throw URLError(.badServerResponse)
-                }
-                return data
-            }
+            .tryMap(handleOutput)
             .decode(type: [PostModel].self, decoder: JSONDecoder())
-            .sink { completion in
-                print("completion: \(completion)")
-            } receiveValue: { [weak self] returnPosts in
-                self?.posts = returnPosts
-            }
+            //if you don't want to handle thrown error, give it a replacement
+            .replaceError(with: [])
+            //this way you will never fail, and you only need to handle success result
+            .sink(receiveValue: { [weak self] returnedPosts in
+                self?.posts = returnedPosts
+            })
+            //
+//            .sink { completion in
+//                switch completion {
+//                case .finished:
+//                    print("finished")
+//                case .failure(let error):
+//                    print("There was an error. \(error)")
+//                }
+//            } receiveValue: { [weak self] returnPosts in
+//                //print(Thread.isMainThread)
+//                self?.posts = returnPosts
+//            }
+            // store the whole publisher in a cancellable so that it can be cancelled anytime
             .store(in: &cancellables)
        
     }
+    
+    func handleOutput(output: URLSession.DataTaskPublisher.Output) throws -> Data {
+        guard
+            let response = output.response as? HTTPURLResponse,
+              response.statusCode >= 200 && response.statusCode < 300 else {
+            throw URLError(.badServerResponse)
+        }
+        return output.data
+    }
+    
 }
 
 struct DownloadWithCombine: View {
