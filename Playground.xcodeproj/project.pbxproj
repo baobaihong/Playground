@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331595B92B6794FD00E8BF50 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331595B82B6794FD00E8BF50 /* WeakSelf.swift */; };
 		3348A2B52B5FD0C900AA7545 /* PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348A2B42B5FD0C900AA7545 /* PlaygroundApp.swift */; };
 		3348A2B72B5FD0C900AA7545 /* EscapingClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348A2B62B5FD0C900AA7545 /* EscapingClosure.swift */; };
 		3348A2B92B5FD0CA00AA7545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		331595B82B6794FD00E8BF50 /* WeakSelf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
 		3348A2B12B5FD0C900AA7545 /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3348A2B42B5FD0C900AA7545 /* PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundApp.swift; sourceTree = "<group>"; };
 		3348A2B62B5FD0C900AA7545 /* EscapingClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosure.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				3348A2C22B61FA8C00AA7545 /* Codable.swift */,
 				33907BEA2B63817300C02559 /* DownloadWithEscaping.swift */,
 				33F201AB2B6772DE00ABCC95 /* BackgroundThread.swift */,
+				331595B82B6794FD00E8BF50 /* WeakSelf.swift */,
 				3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */,
 				3348A2BA2B5FD0CA00AA7545 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3348A2B72B5FD0C900AA7545 /* EscapingClosure.swift in Sources */,
+				331595B92B6794FD00E8BF50 /* WeakSelf.swift in Sources */,
 				33F201AC2B6772DE00ABCC95 /* BackgroundThread.swift in Sources */,
 				3348A2C32B61FA8C00AA7545 /* Codable.swift in Sources */,
 				3348A2B52B5FD0C900AA7545 /* PlaygroundApp.swift in Sources */,
