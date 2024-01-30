@@ -55,6 +55,7 @@ struct TimerView: View {
                 endRadius: 500)
             .ignoresSafeArea()
             
+            // 3 dots loading animation
 //            Text(timeRemaining)
 //                .font(.system(size: 100, weight: .semibold, design: .rounded))
 //                .foregroundStyle(.white)
