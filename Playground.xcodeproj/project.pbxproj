@@ -17,6 +17,7 @@
 		33907BEB2B63817300C02559 /* DownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33907BEA2B63817300C02559 /* DownloadWithEscaping.swift */; };
 		33F201AC2B6772DE00ABCC95 /* BackgroundThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F201AB2B6772DE00ABCC95 /* BackgroundThread.swift */; };
 		961384182B68C409008C1935 /* Subscriber_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961384172B68C409008C1935 /* Subscriber_Publisher.swift */; };
+		9613841B2B68FD46008C1935 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613841A2B68FD46008C1935 /* LongPressGesture.swift */; };
 		96B7B0FC2B67FAAA00ED3901 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		33907BEA2B63817300C02559 /* DownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscaping.swift; sourceTree = "<group>"; };
 		33F201AB2B6772DE00ABCC95 /* BackgroundThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundThread.swift; sourceTree = "<group>"; };
 		961384172B68C409008C1935 /* Subscriber_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriber_Publisher.swift; sourceTree = "<group>"; };
+		9613841A2B68FD46008C1935 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 				3310898F2B679FDB0000ECED /* DownloadWithCombine.swift */,
 				96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */,
 				961384172B68C409008C1935 /* Subscriber_Publisher.swift */,
+				961384192B68FD2D008C1935 /* Gesture */,
 				3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */,
 				3348A2BA2B5FD0CA00AA7545 /* Preview Content */,
 			);
@@ -86,6 +89,14 @@
 				3348A2BB2B5FD0CA00AA7545 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		961384192B68FD2D008C1935 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				9613841A2B68FD46008C1935 /* LongPressGesture.swift */,
+			);
+			path = Gesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				961384182B68C409008C1935 /* Subscriber_Publisher.swift in Sources */,
 				3348A2B72B5FD0C900AA7545 /* EscapingClosure.swift in Sources */,
 				331089902B679FDB0000ECED /* DownloadWithCombine.swift in Sources */,
+				9613841B2B68FD46008C1935 /* LongPressGesture.swift in Sources */,
 				331595B92B6794FD00E8BF50 /* WeakSelf.swift in Sources */,
 				33F201AC2B6772DE00ABCC95 /* BackgroundThread.swift in Sources */,
 				3348A2C32B61FA8C00AA7545 /* Codable.swift in Sources */,
