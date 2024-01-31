@@ -18,6 +18,7 @@
 		33F201AC2B6772DE00ABCC95 /* BackgroundThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F201AB2B6772DE00ABCC95 /* BackgroundThread.swift */; };
 		961384182B68C409008C1935 /* Subscriber_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961384172B68C409008C1935 /* Subscriber_Publisher.swift */; };
 		9613841B2B68FD46008C1935 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613841A2B68FD46008C1935 /* LongPressGesture.swift */; };
+		9613841D2B690977008C1935 /* MagnifyGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613841C2B690977008C1935 /* MagnifyGestureView.swift */; };
 		96B7B0FC2B67FAAA00ED3901 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		33F201AB2B6772DE00ABCC95 /* BackgroundThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundThread.swift; sourceTree = "<group>"; };
 		961384172B68C409008C1935 /* Subscriber_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriber_Publisher.swift; sourceTree = "<group>"; };
 		9613841A2B68FD46008C1935 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		9613841C2B690977008C1935 /* MagnifyGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyGestureView.swift; sourceTree = "<group>"; };
 		96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				9613841A2B68FD46008C1935 /* LongPressGesture.swift */,
+				9613841C2B690977008C1935 /* MagnifyGestureView.swift */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				3348A2B52B5FD0C900AA7545 /* PlaygroundApp.swift in Sources */,
 				33907BEB2B63817300C02559 /* DownloadWithEscaping.swift in Sources */,
 				96B7B0FC2B67FAAA00ED3901 /* TimerView.swift in Sources */,
+				9613841D2B690977008C1935 /* MagnifyGestureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
