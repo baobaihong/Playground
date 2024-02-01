@@ -22,6 +22,7 @@
 		96155EC82B6B38FB00681441 /* RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96155EC72B6B38FB00681441 /* RotationGesture.swift */; };
 		96155ECA2B6B3BF200681441 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96155EC92B6B3BF200681441 /* DragGestureView.swift */; };
 		96155ECC2B6B416500681441 /* DragGestureView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96155ECB2B6B416500681441 /* DragGestureView2.swift */; };
+		96155ECF2B6B74A700681441 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96155ECE2B6B74A700681441 /* AnimationView.swift */; };
 		96B7B0FC2B67FAAA00ED3901 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		96155EC72B6B38FB00681441 /* RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture.swift; sourceTree = "<group>"; };
 		96155EC92B6B3BF200681441 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		96155ECB2B6B416500681441 /* DragGestureView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView2.swift; sourceTree = "<group>"; };
+		96155ECE2B6B74A700681441 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */,
 				961384172B68C409008C1935 /* Subscriber_Publisher.swift */,
 				961384192B68FD2D008C1935 /* Gesture */,
+				96155ECD2B6B749000681441 /* Animation */,
 				3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */,
 				3348A2BA2B5FD0CA00AA7545 /* Preview Content */,
 			);
@@ -109,6 +112,14 @@
 				96155ECB2B6B416500681441 /* DragGestureView2.swift */,
 			);
 			path = Gesture;
+			sourceTree = "<group>";
+		};
+		96155ECD2B6B749000681441 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				96155ECE2B6B74A700681441 /* AnimationView.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				96155ECA2B6B3BF200681441 /* DragGestureView.swift in Sources */,
 				9613841B2B68FD46008C1935 /* LongPressGesture.swift in Sources */,
 				331595B92B6794FD00E8BF50 /* WeakSelf.swift in Sources */,
+				96155ECF2B6B74A700681441 /* AnimationView.swift in Sources */,
 				33F201AC2B6772DE00ABCC95 /* BackgroundThread.swift in Sources */,
 				3348A2C32B61FA8C00AA7545 /* Codable.swift in Sources */,
 				96155EC82B6B38FB00681441 /* RotationGesture.swift in Sources */,
