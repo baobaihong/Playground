@@ -15,6 +15,7 @@
 		3348A2BC2B5FD0CA00AA7545 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3348A2BB2B5FD0CA00AA7545 /* Preview Assets.xcassets */; };
 		3348A2C32B61FA8C00AA7545 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3348A2C22B61FA8C00AA7545 /* Codable.swift */; };
 		337CA6D12B8349CB0043FF04 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CA6D02B8349CB0043FF04 /* LocalFileManager.swift */; };
+		337CA6D32B8362B00043FF04 /* SwiftUICache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CA6D22B8362B00043FF04 /* SwiftUICache.swift */; };
 		33907BEB2B63817300C02559 /* DownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33907BEA2B63817300C02559 /* DownloadWithEscaping.swift */; };
 		33EF9C562B6B936D002E2151 /* AnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF9C552B6B936D002E2151 /* AnimationTiming.swift */; };
 		33EF9C582B6B996C002E2151 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF9C572B6B996C002E2151 /* TransitionView.swift */; };
@@ -39,6 +40,7 @@
 		3348A2BB2B5FD0CA00AA7545 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3348A2C22B61FA8C00AA7545 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 		337CA6D02B8349CB0043FF04 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		337CA6D22B8362B00043FF04 /* SwiftUICache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICache.swift; sourceTree = "<group>"; };
 		33907BEA2B63817300C02559 /* DownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscaping.swift; sourceTree = "<group>"; };
 		33EF9C552B6B936D002E2151 /* AnimationTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTiming.swift; sourceTree = "<group>"; };
 		33EF9C572B6B996C002E2151 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */,
 				961384172B68C409008C1935 /* Subscriber_Publisher.swift */,
 				337CA6D02B8349CB0043FF04 /* LocalFileManager.swift */,
+				337CA6D22B8362B00043FF04 /* SwiftUICache.swift */,
 				961384192B68FD2D008C1935 /* Gesture */,
 				96155ECD2B6B749000681441 /* Animation */,
 				3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 				33F201AC2B6772DE00ABCC95 /* BackgroundThread.swift in Sources */,
 				33EF9C562B6B936D002E2151 /* AnimationTiming.swift in Sources */,
 				3348A2C32B61FA8C00AA7545 /* Codable.swift in Sources */,
+				337CA6D32B8362B00043FF04 /* SwiftUICache.swift in Sources */,
 				337CA6D12B8349CB0043FF04 /* LocalFileManager.swift in Sources */,
 				96155EC82B6B38FB00681441 /* RotationGesture.swift in Sources */,
 				3348A2B52B5FD0C900AA7545 /* PlaygroundApp.swift in Sources */,
