@@ -27,6 +27,7 @@
 		337CA6EA2B84905D0043FF04 /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CA6E92B84905D0043FF04 /* PhotoModelFileManager.swift */; };
 		337CA6FF2B85BCC30043FF04 /* ScrollViewReaderPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CA6FE2B85BCC30043FF04 /* ScrollViewReaderPractice.swift */; };
 		337CA7012B85C0B50043FF04 /* GeometryReaderPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CA7002B85C0B50043FF04 /* GeometryReaderPractice.swift */; };
+		3388F1442B85D57300D512B0 /* MultipleSheetIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388F1432B85D57300D512B0 /* MultipleSheetIssue.swift */; };
 		33907BEB2B63817300C02559 /* DownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33907BEA2B63817300C02559 /* DownloadWithEscaping.swift */; };
 		33EF9C562B6B936D002E2151 /* AnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF9C552B6B936D002E2151 /* AnimationTiming.swift */; };
 		33EF9C582B6B996C002E2151 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF9C572B6B996C002E2151 /* TransitionView.swift */; };
@@ -63,6 +64,7 @@
 		337CA6E92B84905D0043FF04 /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
 		337CA6FE2B85BCC30043FF04 /* ScrollViewReaderPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderPractice.swift; sourceTree = "<group>"; };
 		337CA7002B85C0B50043FF04 /* GeometryReaderPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderPractice.swift; sourceTree = "<group>"; };
+		3388F1432B85D57300D512B0 /* MultipleSheetIssue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetIssue.swift; sourceTree = "<group>"; };
 		33907BEA2B63817300C02559 /* DownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscaping.swift; sourceTree = "<group>"; };
 		33EF9C552B6B936D002E2151 /* AnimationTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTiming.swift; sourceTree = "<group>"; };
 		33EF9C572B6B996C002E2151 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				961384192B68FD2D008C1935 /* Gesture */,
 				96155ECD2B6B749000681441 /* Animation */,
 				337CA7002B85C0B50043FF04 /* GeometryReaderPractice.swift */,
+				3388F1432B85D57300D512B0 /* MultipleSheetIssue.swift */,
 				337CA6FD2B85BCA00043FF04 /* DownloadingData */,
 				337CA6D42B847B280043FF04 /* DownloadingImages */,
 				3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */,
@@ -293,6 +296,7 @@
 				96155ECA2B6B3BF200681441 /* DragGestureView.swift in Sources */,
 				9613841B2B68FD46008C1935 /* LongPressGesture.swift in Sources */,
 				337CA6E82B848DEA0043FF04 /* PhotoModelCacheManager.swift in Sources */,
+				3388F1442B85D57300D512B0 /* MultipleSheetIssue.swift in Sources */,
 				331595B92B6794FD00E8BF50 /* WeakSelf.swift in Sources */,
 				96155ECF2B6B74A700681441 /* AnimationView.swift in Sources */,
 				33F201AC2B6772DE00ABCC95 /* BackgroundThread.swift in Sources */,
