@@ -48,6 +48,8 @@
 		96155ECF2B6B74A700681441 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96155ECE2B6B74A700681441 /* AnimationView.swift */; };
 		96757D672B864B040034E77E /* SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96757D662B864B040034E77E /* SortFilterMap.swift */; };
 		96B7B0FC2B67FAAA00ED3901 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */; };
+		96D16C262B8714DF00EB7E40 /* CoreDataPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D16C252B8714DF00EB7E40 /* CoreDataPractice.swift */; };
+		96D16C292B8715D900EB7E40 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96D16C272B8715D900EB7E40 /* FruitsContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +95,8 @@
 		96155ECE2B6B74A700681441 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		96757D662B864B040034E77E /* SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMap.swift; sourceTree = "<group>"; };
 		96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		96D16C252B8714DF00EB7E40 /* CoreDataPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPractice.swift; sourceTree = "<group>"; };
+		96D16C282B8715D900EB7E40 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 				339D21342B85F1C8008EEAFE /* LocalPushNotification.swift */,
 				339D21362B85FD0B008EEAFE /* HashablePractice.swift */,
 				96757D662B864B040034E77E /* SortFilterMap.swift */,
+				96D16C252B8714DF00EB7E40 /* CoreDataPractice.swift */,
+				96D16C272B8715D900EB7E40 /* FruitsContainer.xcdatamodeld */,
 				337CA6FD2B85BCA00043FF04 /* DownloadingData */,
 				337CA6D42B847B280043FF04 /* DownloadingImages */,
 				3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */,
@@ -328,6 +334,7 @@
 				337CA6E62B84893B0043FF04 /* ImageLoadingViewModel.swift in Sources */,
 				3388F1462B85DE1E00D512B0 /* MaskPractice.swift in Sources */,
 				339D21332B85E95C008EEAFE /* HapticsPractice.swift in Sources */,
+				96D16C292B8715D900EB7E40 /* FruitsContainer.xcdatamodeld in Sources */,
 				331089902B679FDB0000ECED /* DownloadWithCombine.swift in Sources */,
 				96155ECA2B6B3BF200681441 /* DragGestureView.swift in Sources */,
 				9613841B2B68FD46008C1935 /* LongPressGesture.swift in Sources */,
@@ -343,6 +350,7 @@
 				337CA6DA2B847B8D0043FF04 /* DownloadingImages.swift in Sources */,
 				3348A2C32B61FA8C00AA7545 /* Codable.swift in Sources */,
 				337CA6D32B8362B00043FF04 /* SwiftUICache.swift in Sources */,
+				96D16C262B8714DF00EB7E40 /* CoreDataPractice.swift in Sources */,
 				337CA6D12B8349CB0043FF04 /* LocalFileManager.swift in Sources */,
 				96155EC82B6B38FB00681441 /* RotationGesture.swift in Sources */,
 				3348A2B52B5FD0C900AA7545 /* PlaygroundApp.swift in Sources */,
@@ -564,6 +572,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96D16C272B8715D900EB7E40 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96D16C282B8715D900EB7E40 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 96D16C282B8715D900EB7E40 /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3348A2A92B5FD0C900AA7545 /* Project object */;
 }
