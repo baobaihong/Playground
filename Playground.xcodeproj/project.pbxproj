@@ -50,6 +50,8 @@
 		96B7B0FC2B67FAAA00ED3901 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */; };
 		96D16C262B8714DF00EB7E40 /* CoreDataPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D16C252B8714DF00EB7E40 /* CoreDataPractice.swift */; };
 		96D16C292B8715D900EB7E40 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96D16C272B8715D900EB7E40 /* FruitsContainer.xcdatamodeld */; };
+		96D16C2B2B87224000EB7E40 /* CoreDataRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D16C2A2B87224000EB7E40 /* CoreDataRelation.swift */; };
+		96D16C2E2B87238900EB7E40 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96D16C2C2B87238900EB7E40 /* CoreDataContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +99,8 @@
 		96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		96D16C252B8714DF00EB7E40 /* CoreDataPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPractice.swift; sourceTree = "<group>"; };
 		96D16C282B8715D900EB7E40 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		96D16C2A2B87224000EB7E40 /* CoreDataRelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelation.swift; sourceTree = "<group>"; };
+		96D16C2D2B87238900EB7E40 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 				339D21362B85FD0B008EEAFE /* HashablePractice.swift */,
 				96757D662B864B040034E77E /* SortFilterMap.swift */,
 				96D16C252B8714DF00EB7E40 /* CoreDataPractice.swift */,
+				96D16C2A2B87224000EB7E40 /* CoreDataRelation.swift */,
+				96D16C2C2B87238900EB7E40 /* CoreDataContainer.xcdatamodeld */,
 				96D16C272B8715D900EB7E40 /* FruitsContainer.xcdatamodeld */,
 				337CA6FD2B85BCA00043FF04 /* DownloadingData */,
 				337CA6D42B847B280043FF04 /* DownloadingImages */,
@@ -330,6 +336,7 @@
 			files = (
 				33EF9C582B6B996C002E2151 /* TransitionView.swift in Sources */,
 				961384182B68C409008C1935 /* Subscriber_Publisher.swift in Sources */,
+				96D16C2E2B87238900EB7E40 /* CoreDataContainer.xcdatamodeld in Sources */,
 				3348A2B72B5FD0C900AA7545 /* EscapingClosure.swift in Sources */,
 				337CA6E62B84893B0043FF04 /* ImageLoadingViewModel.swift in Sources */,
 				3388F1462B85DE1E00D512B0 /* MaskPractice.swift in Sources */,
@@ -346,6 +353,7 @@
 				96155ECF2B6B74A700681441 /* AnimationView.swift in Sources */,
 				33F201AC2B6772DE00ABCC95 /* BackgroundThread.swift in Sources */,
 				339D212C2B85E454008EEAFE /* SoundsPractice.swift in Sources */,
+				96D16C2B2B87224000EB7E40 /* CoreDataRelation.swift in Sources */,
 				33EF9C562B6B936D002E2151 /* AnimationTiming.swift in Sources */,
 				337CA6DA2B847B8D0043FF04 /* DownloadingImages.swift in Sources */,
 				3348A2C32B61FA8C00AA7545 /* Codable.swift in Sources */,
@@ -581,6 +589,16 @@
 			);
 			currentVersion = 96D16C282B8715D900EB7E40 /* FruitsContainer.xcdatamodel */;
 			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		96D16C2C2B87238900EB7E40 /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96D16C2D2B87238900EB7E40 /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 96D16C2D2B87238900EB7E40 /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
