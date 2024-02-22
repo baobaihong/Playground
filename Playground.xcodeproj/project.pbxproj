@@ -46,6 +46,7 @@
 		96155ECA2B6B3BF200681441 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96155EC92B6B3BF200681441 /* DragGestureView.swift */; };
 		96155ECC2B6B416500681441 /* DragGestureView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96155ECB2B6B416500681441 /* DragGestureView2.swift */; };
 		96155ECF2B6B74A700681441 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96155ECE2B6B74A700681441 /* AnimationView.swift */; };
+		96757D672B864B040034E77E /* SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96757D662B864B040034E77E /* SortFilterMap.swift */; };
 		96B7B0FC2B67FAAA00ED3901 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 		96155EC92B6B3BF200681441 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		96155ECB2B6B416500681441 /* DragGestureView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView2.swift; sourceTree = "<group>"; };
 		96155ECE2B6B74A700681441 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		96757D662B864B040034E77E /* SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMap.swift; sourceTree = "<group>"; };
 		96B7B0FB2B67FAAA00ED3901 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +135,7 @@
 				339D21322B85E95C008EEAFE /* HapticsPractice.swift */,
 				339D21342B85F1C8008EEAFE /* LocalPushNotification.swift */,
 				339D21362B85FD0B008EEAFE /* HashablePractice.swift */,
+				96757D662B864B040034E77E /* SortFilterMap.swift */,
 				337CA6FD2B85BCA00043FF04 /* DownloadingData */,
 				337CA6D42B847B280043FF04 /* DownloadingImages */,
 				3348A2B82B5FD0CA00AA7545 /* Assets.xcassets */,
@@ -328,6 +331,7 @@
 				331089902B679FDB0000ECED /* DownloadWithCombine.swift in Sources */,
 				96155ECA2B6B3BF200681441 /* DragGestureView.swift in Sources */,
 				9613841B2B68FD46008C1935 /* LongPressGesture.swift in Sources */,
+				96757D672B864B040034E77E /* SortFilterMap.swift in Sources */,
 				337CA6E82B848DEA0043FF04 /* PhotoModelCacheManager.swift in Sources */,
 				3388F1442B85D57300D512B0 /* MultipleSheetIssue.swift in Sources */,
 				331595B92B6794FD00E8BF50 /* WeakSelf.swift in Sources */,
